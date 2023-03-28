@@ -1,0 +1,14 @@
+nav {
+  margin-top: 100px;
+  height: 50px;
+  background-color: var(--navbar-footer-color);
+}
+
+.nav-item a {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  transition: all .3s ease-in;
+}
+.nav-item a:hover {
+  transform: scale(0.9);
+}

@@ -8,7 +8,7 @@ import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'category', component: SingleCategoryComponent },
   { path: 'post', component: SinglePostComponent },
 
